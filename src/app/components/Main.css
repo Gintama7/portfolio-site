@@ -1,0 +1,22 @@
+.icon{
+  
+}
+
+.icon:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.more-btn{
+    outline: white;
+    border: 1px solid white;
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    box-shadow: none;
+    text-transform: none;
+}
+
+.more-btn:hover{
+    background-color: white;
+    color: black;
+    
+}

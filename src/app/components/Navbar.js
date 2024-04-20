@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className={shadow && !showNav ? "fixed w-full h-20 z-[100] shadow-xl bg-[#f5f5f5] opacity-[50%]":"fixed w-full h-20 z-[100]"}>
         <div className="flex justify-between items-center md:justify-normal w-full h-full px-2 2xl:px-16 text-black">
-<h2>{`<Abhi/>`}</h2>
+<h2><Link href='/#main'>{`<Abhi/>`}</Link></h2>
         <div>
             <ul className="hidden md:flex ">
                 <Link href='/#main'>
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
         </div>
        { showNav && <div className={shadow?"fixed transition-1 md:hidden shadow-xl w-full" :"fixed transition-1 md:hidden w-full"}>
-        <MenuOverlay/></div>}
+        <MenuOverlay show={setShowNav}/></div>}
       
     </div>
   )

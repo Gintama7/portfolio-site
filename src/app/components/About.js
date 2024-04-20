@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="w-full mid:h-screen p-2 flex flex-col items-center py-16 bg-[#f9dddd] text-black opacity-80">
+    <div id='about' className="w-full mid:h-screen p-2 flex flex-col items-center py-16 bg-[#f9dddd] text-black opacity-80">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 mt-3">
         <div className="hidden md:flex ">
           <img

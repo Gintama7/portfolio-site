@@ -30,19 +30,19 @@ const Navbar = () => {
 <h2>{`<Abhi/>`}</h2>
         <div>
             <ul className="hidden md:flex ">
-                <Link href='/'>
+                <Link href='/#main'>
                     <li className='ml-10 text-md hover:border-b'>Home</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/#projects'>
                     <li className='ml-10 text-md hover:border-b'>Projects</li>
                 </Link>
                 <Link href='/'>
                     <li className='ml-10 text-md hover:border-b'>Resume</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/#about'>
                     <li className='ml-10 text-md hover:border-b'>About</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/#skills'>
                     <li className='ml-10 text-md hover:border-b'>Skills</li>
                 </Link>
             </ul>

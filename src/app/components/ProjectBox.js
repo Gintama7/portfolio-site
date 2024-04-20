@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa'
 
 const ProjectBox = ({name,date}) => {
   return (
-    <div className="relative flex flex-col items-center justify-center h-auto w-[500px] shadow-lg shadow-gray-400 border-solid border-2 border-gray-300 p-2">
+    <div className="bg-white relative flex flex-col items-center justify-center h-auto w-[500px] shadow-lg shadow-gray-400 border-solid border-2 border-gray-300 p-2 rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:duration-300">
     <h4>{name}</h4>
     <button
       className="w-full mx-2 text-gray-400 border-solid border-2 p-1 border-gray-400 hover:bg-gray-500 hover:text-white flex items-center justify-center gap-1 mb-2 mt-2"

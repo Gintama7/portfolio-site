@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import RecentProjects from "./components/RecentProjects";
+import Skills from "./components/Skills";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Main/>
       <About/>
       <RecentProjects/>
+      <Skills/>
     {/* </main> */}
     
     </div>

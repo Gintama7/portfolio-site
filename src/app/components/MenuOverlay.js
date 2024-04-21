@@ -10,9 +10,10 @@ const MenuOverlay = (props) => {
                 <Link onClick={()=>props.show(false)} href='/#projects'>
                     <li className='block py-2 pl-3 pr-4 m:text-xl rounded md:p-0' >Projects</li>
                 </Link>
-                <Link onClick={()=>props.show(false)} href='/'>
-                    <li className='block py-2 pl-3 pr-4 m:text-xl rounded md:p-0'>Resume</li>
-                </Link>
+                <p onClick={()=>props.show(false)} href='/'>
+                    <li className='block py-2 pl-3 pr-4 m:text-xl rounded md:p-0'><a href="./abhishek-resume.pdf"
+            download>Resume</a></li>
+                </p>
                 <Link onClick={()=>props.show(false)} href='/#about'>
                     <li className='block py-2 pl-3 pr-4 m:text-xl rounded md:p-0'>About</li>
                 </Link>

@@ -29,7 +29,9 @@ const About = () => {
             className="text-black mt-10 border-solid border-2 border-black p-2 hover:bg-black hover:text-white"
             style={{ boxShadow: "none", textTransform: "none" }}
           >
-            Resume
+           <a href="./abhishek-resume.pdf"
+            download>
+            Resume</a>
           </button>
         </div>
       </div>

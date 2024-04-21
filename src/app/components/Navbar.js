@@ -36,9 +36,10 @@ const Navbar = () => {
                 <Link href='/#projects'>
                     <li className='ml-10 text-md hover:border-b'>Projects</li>
                 </Link>
-                <Link href='/'>
-                    <li className='ml-10 text-md hover:border-b'>Resume</li>
-                </Link>
+                <p href='/'>
+                    <li className='ml-10 text-md hover:border-b'><a href="./abhishek-resume.pdf"
+            download>Resume</a></li>
+                </p>
                 <Link href='/#about'>
                     <li className='ml-10 text-md hover:border-b'>About</li>
                 </Link>

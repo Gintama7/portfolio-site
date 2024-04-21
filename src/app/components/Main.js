@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import './Main.css';
 import {ReactTyped} from "react-typed";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -19,12 +20,12 @@ const Main = () => {
           </p>
 
           <div className="flex items-center justify-evenly max-w-[330px] mt-8 m-auto py-4">
-            <FaLinkedin size={45} className="icon" />
+          <Link href="https://www.linkedin.com/in/abhishek-kumar-549a8b15b/">  <FaLinkedin size={45} className="icon" /></Link>
             <FaFacebookSquare size={45} className="icon" />
             <FaInstagram size={45} className="icon" />
-            <FaGithub size={45} className="icon" />
+           <Link href="https://github.com/Gintama7"> <FaGithub size={45} className="icon" /></Link>
           </div>
-          <button className="more-btn mt-10">More about me</button>
+          <button className="more-btn mt-10"><Link href="/#about">More about me</Link></button>
         </div>
       </div>
     </div>

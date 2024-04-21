@@ -1,7 +1,6 @@
 
 "use client";
 import './Skills.css';
-import ProgressBar from "@ramonak/react-progress-bar";
 import { useState } from "react";
 import TechSkills from "./TechSkills";
 import SoftSkills from "./SoftSkills";
@@ -32,8 +31,9 @@ const Skills = () => {
             Soft Skills{" "}
           </div>
         </div>
-
+     <div className='my-8'>
         {activeTab === "technical" ? <TechSkills /> : <SoftSkills />}
+        </div>
       </div>
     </div>
   );

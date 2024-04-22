@@ -6,10 +6,11 @@ import { FaInstagram } from "react-icons/fa";
 import './Main.css';
 import {ReactTyped} from "react-typed";
 import Link from "next/link";
+import './main.css';
 
 const Main = () => {
   return (
-    <div id="main" className="w-full h-screen text-center ">
+    <div id="main" className=" w-full h-screen text-center ">
       <div className="max-w-[1000px] w-full h-full mx-auto p-4 flex justify-center items-center">
         <div>
           <p className="text-6xl md:text-8xl py-2 ">Abhishek Kumar</p>

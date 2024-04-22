@@ -6,7 +6,6 @@ import { FaInstagram } from "react-icons/fa";
 import './Main.css';
 import {ReactTyped} from "react-typed";
 import Link from "next/link";
-import './main.css';
 
 const Main = () => {
   return (

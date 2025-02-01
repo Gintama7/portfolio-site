@@ -20,10 +20,10 @@ const Main = () => {
           </p>
 
           <div className="flex items-center justify-evenly max-w-[330px] mt-8 m-auto py-4">
-          <Link href="https://www.linkedin.com/in/abhishek-kumar-549a8b15b/">  <FaLinkedin size={45} className="icon" /></Link>
+          <Link target="_blank" href="https://www.linkedin.com/in/abhishek-kumar-549a8b15b/">  <FaLinkedin size={45} className="icon" /></Link>
             <FaFacebookSquare size={45} className="icon" />
             <FaInstagram size={45} className="icon" />
-           <Link href="https://github.com/Gintama7"> <FaGithub size={45} className="icon" /></Link>
+           <Link href="https://github.com/Gintama7" target="_blank"> <FaGithub size={45} className="icon" /></Link>
           </div>
           <button className="more-btn mt-10"><Link href="/#about">More about me</Link></button>
         </div>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const MenuOverlay = (props) => {
   return (
-   <ul className='flex flex-col mt-0 items-start bg-opacity-10 transition delay-1000 text-black'>
+   <ul className='flex flex-col mt-0 items-start bg-[#f5f5f5] transition delay-1000 text-black'>
     <Link onClick={()=>props.show(false)}   href='/#main'>
                     <li className='block py-2 pl-3 pr-4 m:text-xl rounded md:p-0'>Home</li>
                 </Link>

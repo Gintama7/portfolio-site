@@ -13,7 +13,7 @@ const Skills = () => {
 
   return (
     <div id="skills" className="w-full bg-[#fff] text-black opacity-90">
-      <div className="max-w-[1240px] mx-auto px-2 py-16 text-center">
+      <div className="max-w-[1240px] mx-auto px-4 xl:px-0 py-12 lg:py-16 text-center">
         <p className="text-4xl mt-8 mb-4">Skills</p>
         <div className="tabs">
           <div

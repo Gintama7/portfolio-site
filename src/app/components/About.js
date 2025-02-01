@@ -2,15 +2,15 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div id='about' className="w-full mid:h-screen p-2 flex flex-col items-center py-16 bg-[#f9dddd] text-black opacity-80">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 mt-3">
-        <div className="hidden md:flex ">
+    <div id='about' className="w-full mid:h-screen px-4 xl:px-2 flex flex-col items-center py-12 lg:py-16 bg-[#f9dddd] text-black opacity-80">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-8 mt-3">
+        <div className="hidden md:flex max-h-[500px] rounded-lg overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
         </div>
-        <div className="col-span-2 text-center justify-self-center mt-10">
+        <div className="col-span-1 text-center justify-self-center mt-10">
           <p
             style={{ fontSize: "3rem" }}
             className="text-xl tracking-widest mb-5"
